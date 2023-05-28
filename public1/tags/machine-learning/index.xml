@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine learning on Mohamed Yousfi</title>
+    <link>https://myousfi96.github.io/mohamed_yousfi/tags/machine-learning/</link>
+    <description>Recent content in machine learning on Mohamed Yousfi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Apr 2023 23:29:21 +0530</lastBuildDate><atom:link href="https://myousfi96.github.io/mohamed_yousfi/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leveraging Machine Learning to Identify Optimal Pull Request Characteristics</title>
+      <link>https://myousfi96.github.io/mohamed_yousfi/blogs/mining-software-pull-request/</link>
+      <pubDate>Mon, 03 Apr 2023 23:29:21 +0530</pubDate>
+      
+      <guid>https://myousfi96.github.io/mohamed_yousfi/blogs/mining-software-pull-request/</guid>
+      <description>Introduction In the realm of collaborative software development, pull requests play a pivotal role in code integration and review. However, understanding the key factors that determine the success of pull requests can be complex.
+In this blog post, we utilize machine learning to uncover insights into the crucial factors impacting pull request outcomes. By analyzing a diverse dataset collected from various repositories using the GitHub API, we reveal the factors that significantly influence the decision to merge or reject pull requests.</description>
+    </item>
+    
+  </channel>
+</rss>
