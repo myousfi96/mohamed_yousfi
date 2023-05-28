@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Mohamed Yousfi</title>
+    <link>http://mohamed-yousfi.com/tags/</link>
+    <description>Recent content in Tags on Mohamed Yousfi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Apr 2023 23:29:21 +0530</lastBuildDate><atom:link href="http://mohamed-yousfi.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>machine learning</title>
+      <link>http://mohamed-yousfi.com/tags/machine-learning/</link>
+      <pubDate>Mon, 03 Apr 2023 23:29:21 +0530</pubDate>
+      
+      <guid>http://mohamed-yousfi.com/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mining Software repos</title>
+      <link>http://mohamed-yousfi.com/tags/mining-software-repos/</link>
+      <pubDate>Mon, 03 Apr 2023 23:29:21 +0530</pubDate>
+      
+      <guid>http://mohamed-yousfi.com/tags/mining-software-repos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pull request</title>
+      <link>http://mohamed-yousfi.com/tags/pull-request/</link>
+      <pubDate>Mon, 03 Apr 2023 23:29:21 +0530</pubDate>
+      
+      <guid>http://mohamed-yousfi.com/tags/pull-request/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
