@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/myousfi96/mohamed_yousfi.git
+	branch = master
