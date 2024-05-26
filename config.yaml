@@ -115,9 +115,9 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Mohamed."
-    subtitle: "Coding the Future"
-    content: "I am a passionate individual with expertise in Python automation and a extensive experience in  Data science. Committed to innovation and pushing boundaries, I am driven to explore new possibilities and make a positive impact through technology."
+    title: "Mohamed Yousfi"
+    subtitle: "data scientist"
+    content: "Experienced Data Scientist with over 3 years of expertise in data analysis, machine learning, and large language models. Proficient in Python, data visualization, and full-stack development, with a proven track record at Tesla, Arriver Software GmbH, and Loni.ai. Holds a Master's in Artificial Intelligence Engineering and a Bachelor's in Computer Engineering. Recognized for outstanding academic achievements and published research."
     image: /images/hero2.jpg
     bottomImage:
       enable: true
@@ -138,19 +138,17 @@ params:
     enable: true
     title: "About Me"
     image: "about.jpg"
-    content: |-
-      I am a software developer with a background in computer engineering. Currently, I am pursuing a Master's degree in AI at the University of Passau in Germany. 
-
-      I am currently seeking new opportunities to enhance my professional journey and make a meaningful impact
+    content:
     skills:
       enable: true
       title: |-
        
-       
        Here are a few technologies I've been working with recently:
       items:
-        - "Tenserflow, Pytorch"
+        - "Pytorch"
         - "Pandas, Numby"
+        - "LLM Application (RAG)"
+        - "Docker"
         - "Django"
         - "RabitMQ, Kafk"
         - "C/C++"
@@ -161,7 +159,19 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Automation Software Development"
+      - job: "Intern Data Engineer"
+        company: "Tesla"
+        companyUrl: "https://www.tesla.com"
+        date: "JAN 2024 - JULY 2024"
+        info:
+          enable: false
+          content: "The company is now acquired by Qualcomm."
+        content: |
+          - I successfully spearheaded the development and implementation of new projects aimed at visualizing, automating, and exploring data.
+          - Develop full-stack web applications to streamline processes, deploy, and maintain them.
+          - Created data models and documented data flows to improve system architecture and data quality
+
+      - job: "Work student Automation Software Development"
         company: "Arriver Software"
         companyUrl: "https://www.qualcomm.com/products/automotive/snapdragon-digital-chassis/autonomous-driving"
         date: "JULY 2022 - DECEMBER 2022"
@@ -226,13 +236,9 @@ params:
           url: "https://www.uni-passau.de/"
         date: "2022 - 2024"
         content: |-
-          - My focus has been on AI engineering and deploying models in production.
-          - I have gained a solid understanding of the fundamentals of machine learning
-          and deep learning, including language and image models.
-          - In addition to coursework, I have completed practical applications of machine
-          learning techniques, such as Mining software repositories, practicing deep
-          learning in finance, and developing a reinforcement learning algorithm for a
-          simple game.
+           - Gained a solid understanding of machine learning and deep learning, including language and image models.
+           - I have completed practical applications of machine learning techniques, such as Mining software repositories and large Language Models, and practicing deep learning in finance.
+           - Master's Thesis: Developed a sophisticated and efficient Retrieval Augmented Generation (RAG) system to effectively answer to multi-hop questions.
 
       - title: "Bachelor of Science in Computer Engineering"
         school:
@@ -261,6 +267,25 @@ params:
           url: "https://example.com"
 
 
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Mining Pull Requests
+        content: This project utilizes machine learning to analyze pull requests and identify factors impacting their success. It provides insights on crucial factors like commit count and review comments, enabling teams to optimize their workflow. The findings help improve code integration and increase the chances of successful pull request merges.
+        image: /images/mining_software.jpg
+
+        badges:
+          - "Machine learning"
+          - "Python"
+          - "Pandas"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/myousfi96/pull_request_mining
+
+
   # Achievements
   achievements:
     enable: true
@@ -281,26 +306,6 @@ params:
       - title: Oustanding award in bachelor dgree
         content: Received 'Outstanding Student Award' in 2015 and 2017.
         url: "https://drive.google.com/file/d/1L_O3u7PSVIYOoaFmqR_y3WD5kykFjtD7/view?usp=sharing"
-      
-  # projects
-  projects:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Mining Pull Requests
-        content: This project utilizes machine learning to analyze pull requests and identify factors impacting their success. It provides insights on crucial factors like commit count and review comments, enabling teams to optimize their workflow. The findings help improve code integration and increase the chances of successful pull request merges.
-        image: /images/mining_software.jpg
-
-        badges:
-          - "Machine learning"
-          - "Python"
-          - "Pandas"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/myousfi96/pull_request_mining
-
-
-  
 
   #Contact
   contact:
