@@ -1,5 +1,5 @@
 
-baseURL: "https://myousfi96.github.io/mohamed_yousfi/"
+baseURL: "http://localhost:1313/"
 languageCode: "en-us"
 title: "Mohamed Yousfi"
 theme: hugo-profile
@@ -13,7 +13,8 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+pagination:
+  pagerSize: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
@@ -116,8 +117,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Mohamed Yousfi"
-    subtitle: "data scientist"
-    content: "Experienced Data Scientist with over 3 years of expertise in data analysis, machine learning, and large language models. Proficient in Python, data visualization, and full-stack development, with a proven track record at Tesla, Arriver Software GmbH, and Loni.ai. Holds a Master's in Artificial Intelligence Engineering and a Bachelor's in Computer Engineering. Recognized for outstanding academic achievements and published research."
+    subtitle: "AI Software Engineer"
+    content: "I harness the power of data and artificial intelligence to craft innovative solutions. With deep expertise in Python, AI, and data engineering, I develop intelligent systems that solve complex challenges. I'm passionate about exploring breakthrough technologies like Retrieval Augmented Generation (RAG) and agentic AI to shape the future of innovation."
     image: /images/hero2.jpg
     bottomImage:
       enable: true
@@ -125,13 +126,15 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1raWt-NmdVH5MtMC7TCGRW_3T6ZAB1BeT/view?usp=share_link"
+      url: "https://drive.google.com/file/d/1ujhnIPIPHaMjAcqlcNO9sIgkWgt2Ogm5/view?usp=sharing_link"
       download: true
       newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/mohamed-yousfi-042487159/
+        - icon: fab fa-github
+          url: https://github.com/myousfi96?tab=repositories
 
   # About
   about:
@@ -142,16 +145,15 @@ params:
     skills:
       enable: true
       title: |-
-       
        Here are a few technologies I've been working with recently:
       items:
         - "Pytorch"
-        - "Pandas, Numby"
+        - "Python"
         - "LLM Application (RAG)"
         - "Docker"
-        - "Django"
+        - "Airflow, DBT"
         - "RabitMQ, Kafk"
-        - "C/C++"
+        - "Data Structures, OOP"
         - "Git, Bitbucket, Github"
 
   # Experience
@@ -162,13 +164,13 @@ params:
       - job: "Intern Data Engineer"
         company: "Tesla"
         companyUrl: "https://www.tesla.com"
-        date: "JAN 2024 - JULY 2024"
+        date: "JAN 2024 - SEP 2024"
         info:
           enable: false
           content: "The company is now acquired by Qualcomm."
         content: |
-          - I successfully spearheaded the development and implementation of new projects aimed at visualizing, automating, and exploring data.
-          - Develop full-stack web applications to streamline processes, deploy, and maintain them.
+          - Designed and implemented data pipelines and ETL processes, writing complex queries and creating dashboards for data visualization using Dash.
+          - Developed and deployed full-stack web applications using Python FastAPI for the backend and React with TypeScript for the frontend. Responsible for deploying applications to Kubernetes and monitoring the production environment.
           - Created data models and documented data flows to improve system architecture and data quality
 
       - job: "Work student Automation Software Development"
@@ -194,16 +196,12 @@ params:
           enable: false
           content: The company is now acquired by Qualcomm.   
         content: |
-          - Built python back-end system that provides automation for network devices:
-            Cisco, Arista, Juniper, Fortnite, Palo Alto, Arbor, Opengear and network tools:
-            Zabbix.
-          - Used Django REST framework to build the API to be used by the front-end.
-          - Worked on Automating the most important network features for network
-            devices: routing protocols, Interfaces, VRF, Access-list, NAT, Failover, etc. To
-            do that we used Python as the main language and we used libraries like: async,
-            Jinja template, Textfsm, and pyATS.
-          - Provided test coverage using unit testing and integration testing.
-          - Worked with agile methodology supported by Jira system.
+          - Developed advanced, maintainable, and scalable Python code using design patterns.
+          - Created RESTful APIs with Django REST Framework to enable efficient data interchange and system integration.
+          - Optimized performance by implementing multiprocessing and asynchronous programming to handle high workloads effectively.
+          - Ensured software robustness and quality through comprehensive unit and integration testing.
+          - Collaborated with cross-functional teams and conducted code reviews to enhance code quality and ensure mutual understanding.
+          - Worked within an agile environment.
 
       - job: "System Administrator"
         company: "Alotair"
@@ -215,14 +213,9 @@ params:
           enable: false
           url: "https://example.com"
         content: |
-          - Managed the configurations of switches and routers, load balancer, and
-          wireless access controller to meets company needs.
-          - Technical support.
-          - Wrote automation scripts using python to periodically check and report the
-          health of the system.
-          - Data management including backup and restore.
-          - Managed firewall and malware protection software.
-          - Monitored the system logs to detect any outage.
+          - Managed configurations of switches, routers, load balancers, and wireless access controllers, ensuring optimal network performance.
+          - Oversaw data management tasks, including backup and restore, maintaining data integrity and availability.
+          - Monitored system logs to detect and address outages promptly, minimizing downtime
 
   # Education
   education:
