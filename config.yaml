@@ -278,6 +278,18 @@ params:
           - icon: fab fa-github
             url: https://github.com/myousfi96/pull_request_mining
 
+      - title: RedditMind
+        content: RedditMind is an AI agentic platform that harnesses the power of CrewAI agents to analyze Reddit discussions in-depth. It processes authentic user conversations to generate summaries, extract product features, perform competitor comparisons, and reveal trend insights—all through advanced, agent-driven analysis, empowering informed decisions based on real user feedback.
+        image: /images/RedditMind.png
+
+        badges:
+          - Agentic AI
+          - Reddit
+        links:
+          - icon: fab fa-github
+            url: https://github.com/myousfi96/RedditMind
+
+
 
   # Achievements
   achievements:
