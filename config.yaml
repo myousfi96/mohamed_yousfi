@@ -3,6 +3,7 @@ baseURL: "https://myousfi96.github.io/mohamed_yousfi/"
 languageCode: "en-us"
 title: "Mohamed Yousfi"
 theme: hugo-profile
+canonifyURLs: true
 
 outputs:
   home:
