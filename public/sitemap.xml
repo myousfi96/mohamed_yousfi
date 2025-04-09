@@ -2,36 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/agentic-ai/</loc>
+    <loc>http://localhost:62494/tags/agentic-ai/</loc>
     <lastmod>2025-04-03T23:29:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/</loc>
+    <loc>http://localhost:62494/blogs/</loc>
     <lastmod>2025-04-03T23:29:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:62494/</loc>
     <lastmod>2025-04-03T23:29:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/reddit/</loc>
+    <loc>http://localhost:62494/tags/reddit/</loc>
     <lastmod>2025-04-03T23:29:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/reddit-mind/</loc>
+    <loc>http://localhost:62494/blogs/reddit-mind/</loc>
     <lastmod>2025-04-03T23:29:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:62494/tags/</loc>
     <lastmod>2025-04-03T23:29:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/mining-software-pull-request/</loc>
+    <loc>http://localhost:62494/blogs/mining-software-pull-request/</loc>
     <lastmod>2023-04-03T23:29:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/machine-learning/</loc>
+    <loc>http://localhost:62494/tags/machine-learning/</loc>
     <lastmod>2023-04-03T23:29:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mining-software-repos/</loc>
+    <loc>http://localhost:62494/tags/mining-software-repos/</loc>
     <lastmod>2023-04-03T23:29:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pull-request/</loc>
+    <loc>http://localhost:62494/tags/pull-request/</loc>
     <lastmod>2023-04-03T23:29:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:62494/categories/</loc>
   </url>
 </urlset>
